@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    align-items: flex-start;
+  }
+}
+.heading {
+  text-align: center;
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-top: 96px;
+  }
+}
+.search-bar-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 10px 0px 10px 8px;
+  margin-left: 15px;
+}
+.search-bar {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-family: 'Open Sans';
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.search-logo {
+  width: 40px;
+  height: 40px;
+}
+.ui-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .ui-container {
+    justify-content: flex-start;
+  }
+}
